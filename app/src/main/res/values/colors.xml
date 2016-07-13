@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#6b394c</color>
+    <color name="colorcampo">#cd84dc</color>
+    <color name="colorAccent">#7a188e</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_inicio">#31244e</color>
+    <color name="bg_gradient_fim">#6b394c</color>
+    <color name="tela1Inicio">#3b1666</color>
+    <color name="tela1Final">#9e73ba</color>
+
+</resources>

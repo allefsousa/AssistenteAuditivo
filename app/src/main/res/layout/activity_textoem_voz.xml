@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_gradientetelas"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ConvertTextoemVoz">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/boraFalar"
+        android:layout_height="75dp"
+        android:background="@null"
+        android:src="@mipmap/speaker"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Configuração"
+        android:id="@+id/teste"
+        android:layout_marginTop="89dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="100dp"
+        android:background="@color/tela1Inicio"
+        android:id="@+id/txtTexto"
+        android:lines="7"
+        android:layout_above="@+id/boraFalar"
+
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="Precione Para Ouvir Oque Escrever.."
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
